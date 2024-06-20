@@ -34,13 +34,13 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
    
 3. Configura la base de datos MySQL:
 
-- **Crea una base de datos llamada galys_cake.**
+- **Crea una base de datos llamada Galys.**
 - **Importa el archivo database.sql ubicado en el directorio db.**
 
 4. Configura el archivo de conexión a la base de datos en src/main/resources/config.properties:
 
    ```bash
-      db.url=jdbc:mysql://localhost:3306/galys_cake
+      db.url=jdbc:mysql://localhost:3306/Galys
       db.user=tu_usuario
       db.password=tu_contraseña
    
@@ -63,14 +63,14 @@ La estructura del proyecto es la siguiente:
   - `lib/`
   - `nbproject/`
   - `src/`
-     - `BaseDatos`
+     - `BaseDatos/`
      - `galysk/`
      - `Imagenes/`
      - `InterfazUsuario/`
   - `test/`
   - `build.xml`
   - `manifest.mf`
-- `Base de datos`
+- `Base de datos/`
   - `Base de datos_galyscake.sql`
 - `README.md`
 
